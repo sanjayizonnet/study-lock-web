@@ -1,0 +1,85 @@
+.contact-bg {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.bg-gray {
+    background-color: #dedada;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100vh;
+}
+
+.contactbox {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contactbox h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.contactbox i {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #9edc3c;
+    text-align: center;
+    display: block;
+}
+
+.input-box {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-information {
+    padding: 65px !important;
+}
+
+.form-outline .form-control~.form-label {
+    top: 6px;
+}
+
+.form-outline .form-control:focus~.form-label,
+.form-outline .form-control.active~.form-label {
+    transform: translateY(-1.2rem) translateY(0.1rem) scale(0.8);
+}
+
+.submitbtn {
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+    width: 100px;
+    background-color: #9edc3c;
+    color: #fff;
+    border: 1px solid #9edc3c;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.contact-information h4 {
+    padding-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:1199px) {
+    .contact-bg {
+        padding: 26px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .contact-information , .contact-bg {
+        padding: 30px !important;
+    }
+}
